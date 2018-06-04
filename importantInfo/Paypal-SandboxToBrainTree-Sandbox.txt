@@ -1,0 +1,28 @@
+PAYPAL API CREDENTIALS!
+
+SANDBOX ACCOUNT:
+nelsongoris-facilitator@outlook.com
+
+CLIENT ID:
+AW-c8FcQFGzqetk-b6AVfOdtMZp1X8XX1QeNnf4qmi8SgpfQv6RLjkekuWO65CL5QvfpaZYRQKdnmMoJ
+
+SECRET:
+EAHuYk1f6VDs336FntdaHKlIqx6N2iJp2B3TUvxzRaRfXSpm_GqE3aWpofQc72-f7aaVWRbWRWqUxfEX
+
+
+BRAINTREE PUBLIC API KEY
+5rkxg6nvzx6jr787
+
+PRIVATE KEY
+22b1ca5402300d7aec5e414440be89eb
+
+MERCHANT ID
+k9bmh5qhkt56s3k7
+
+SETTING IT UP IN PHP
+$gateway = new Braintree_Gateway([
+  'environment' => 'sandbox',
+  'merchantId' => 'k9bmh5qhkt56s3k7',
+  'publicKey' => '5rkxg6nvzx6jr787',
+  'privateKey' => '22b1ca5402300d7aec5e414440be89eb'
+]);
